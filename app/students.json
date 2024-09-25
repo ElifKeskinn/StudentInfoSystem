@@ -1,0 +1,365 @@
+{
+    "students": [
+      {
+        "name": "Aysu Aşçı",
+        "student_number": "001",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 1,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 5
+          },
+          "grades": {
+            "math": 85,
+            "science": 90,
+            "literature": 88
+          }
+        }
+      },
+      {
+        "name": "Elif Keskin",
+        "student_number": "002",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 2,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 3
+          },
+          "grades": {
+            "math": 78,
+            "science": 84,
+            "literature": 80
+          }
+        }
+      },
+      {
+        "name": "Doğa Savaş",
+        "student_number": "003",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 3,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 2
+          },
+          "grades": {
+            "math": 92,
+            "science": 88,
+            "literature": 91
+          }
+        }
+      },
+      {
+        "name": "Sema Bekdemir",
+        "student_number": "004",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 4,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 4
+          },
+          "grades": {
+            "math": 75,
+            "science": 80,
+            "literature": 78
+          }
+        }
+      },
+      {
+        "name": "Furkan Coşar",
+        "student_number": "005",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 5,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 6
+          },
+          "grades": {
+            "math": 88,
+            "science": 82,
+            "literature": 84
+          }
+        }
+      },
+      {
+        "name": "Kemal Özalp",
+        "student_number": "006",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 6,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 1
+          },
+          "grades": {
+            "math": 90,
+            "science": 91,
+            "literature": 89
+          }
+        }
+      },
+      {
+        "name": "Sıla Kara",
+        "student_number": "007",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 7,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 7
+          },
+          "grades": {
+            "math": 83,
+            "science": 85,
+            "literature": 86
+          }
+        }
+      },
+      {
+        "name": "Sudenur Taştekin",
+        "student_number": "008",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 8,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 5
+          },
+          "grades": {
+            "math": 80,
+            "science": 87,
+            "literature": 82
+          }
+        }
+      },
+      {
+        "name": "Kerem Kaçmaz",
+        "student_number": "009",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 9,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 3
+          },
+          "grades": {
+            "math": 86,
+            "science": 84,
+            "literature": 88
+          }
+        }
+      },
+      {
+        "name": "Baki Çağlayan",
+        "student_number": "010",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 10,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 2
+          },
+          "grades": {
+            "math": 89,
+            "science": 92,
+            "literature": 90
+          }
+        }
+      },
+      {
+        "name": "Gökhan Ünlü",
+        "student_number": "011",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 11,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 0
+          },
+          "grades": {
+            "math": 91,
+            "science": 90,
+            "literature": 93
+          }
+        }
+      },
+      {
+        "name": "Fatih Kaya",
+        "student_number": "012",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 12,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 4
+          },
+          "grades": {
+            "math": 84,
+            "science": 87,
+            "literature": 86
+          }
+        }
+      },
+      {
+        "name": "Doğukan Sarı",
+        "student_number": "013",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 13,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 6
+          },
+          "grades": {
+            "math": 77,
+            "science": 80,
+            "literature": 75
+          }
+        }
+      },
+      {
+        "name": "Halil İbrahim",
+        "student_number": "014",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 14,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 2
+          },
+          "grades": {
+            "math": 82,
+            "science": 79,
+            "literature": 80
+          }
+        }
+      },
+      {
+        "name": "Tunahan Orak",
+        "student_number": "015",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 15,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 1
+          },
+          "grades": {
+            "math": 93,
+            "science": 94,
+            "literature": 92
+          }
+        }
+      },
+      {
+        "name": "Berat Dimen",
+        "student_number": "016",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 16,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 5
+          },
+          "grades": {
+            "math": 88,
+            "science": 89,
+            "literature": 87
+          }
+        }
+      },
+      {
+        "name": "Berk Uçar",
+        "student_number": "017",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 17,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 7
+          },
+          "grades": {
+            "math": 81,
+            "science": 83,
+            "literature": 85
+          }
+        }
+      },
+      {
+        "name": "Hasan Türkmen",
+        "student_number": "018",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 18,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 2
+          },
+          "grades": {
+            "math": 90,
+            "science": 89,
+            "literature": 91
+          }
+        }
+      },
+      {
+        "name": "Arda Toraman",
+        "student_number": "019",
+        "class": "10. Dönem FE",
+        "gender": "Male",
+        "id": 19,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 4
+          },
+          "grades": {
+            "math": 86,
+            "science": 87,
+            "literature": 84
+          }
+        }
+      },
+      {
+        "name": "Ece Ceylan",
+        "student_number": "020",
+        "class": "10. Dönem FE",
+        "gender": "Female",
+        "id": 20,
+        "details": {
+          "attendance": {
+            "total_classes": 100,
+            "absences": 2
+          },
+          "grades": {
+            "math": 91,
+            "science": 89,
+            "literature": 90
+          }
+        }
+      }
+    ]
+  }
+  
