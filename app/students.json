@@ -1,365 +1,167 @@
 {
-    "students": [
+  "name": "9. Dönem Frontend Uzmanlık Sınıfı - Furkan Özay",
+  "period": "9",
+  "location": "Class 117",
+  "students": [
       {
-        "name": "Aysu Aşçı",
-        "student_number": "001",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 1,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 5
-          },
-          "grades": {
-            "math": 85,
-            "science": 90,
-            "literature": 88
-          }
-        }
+          "id": 1,
+          "name": "Aysu Aşçı",
+          "student_number": 101,
+          "gender": "female",
+          "absences": 3,
+          "homework_average": 87
       },
       {
-        "name": "Elif Keskin",
-        "student_number": "002",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 2,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 3
-          },
-          "grades": {
-            "math": 78,
-            "science": 84,
-            "literature": 80
-          }
-        }
+          "id": 2,
+          "name": "Elif Keskin",
+          "student_number": 102,
+          "gender": "female",
+          "absences": 1,
+          "homework_average": 92
       },
       {
-        "name": "Doğa Savaş",
-        "student_number": "003",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 3,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 2
-          },
-          "grades": {
-            "math": 92,
-            "science": 88,
-            "literature": 91
-          }
-        }
+          "id": 3,
+          "name": "Doğa Savaş",
+          "student_number": 103,
+          "gender": "female",
+          "absences": 0,
+          "homework_average": 85
       },
       {
-        "name": "Sema Bekdemir",
-        "student_number": "004",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 4,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 4
-          },
-          "grades": {
-            "math": 75,
-            "science": 80,
-            "literature": 78
-          }
-        }
+          "id": 4,
+          "name": "Sema Bekdemir",
+          "student_number": 104,
+          "gender": "female",
+          "absences": 4,
+          "homework_average": 83
       },
       {
-        "name": "Furkan Coşar",
-        "student_number": "005",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 5,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 6
-          },
-          "grades": {
-            "math": 88,
-            "science": 82,
-            "literature": 84
-          }
-        }
+          "id": 5,
+          "name": "Furkan Coşar",
+          "student_number": 105,
+          "gender": "male",
+          "absences": 2,
+          "homework_average": 89
       },
       {
-        "name": "Kemal Özalp",
-        "student_number": "006",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 6,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 1
-          },
-          "grades": {
-            "math": 90,
-            "science": 91,
-            "literature": 89
-          }
-        }
+          "id": 6,
+          "name": "Kemal Özalp",
+          "student_number": 106,
+          "gender": "male",
+          "absences": 3,
+          "homework_average": 90
       },
       {
-        "name": "Sıla Kara",
-        "student_number": "007",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 7,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 7
-          },
-          "grades": {
-            "math": 83,
-            "science": 85,
-            "literature": 86
-          }
-        }
+          "id": 7,
+          "name": "Sıla Kara",
+          "student_number": 107,
+          "gender": "female",
+          "absences": 1,
+          "homework_average": 91
       },
       {
-        "name": "Sudenur Taştekin",
-        "student_number": "008",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 8,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 5
-          },
-          "grades": {
-            "math": 80,
-            "science": 87,
-            "literature": 82
-          }
-        }
+          "id": 8,
+          "name": "Sudenur Taştekin",
+          "student_number": 108,
+          "gender": "female",
+          "absences": 0,
+          "homework_average": 88
       },
       {
-        "name": "Kerem Kaçmaz",
-        "student_number": "009",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 9,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 3
-          },
-          "grades": {
-            "math": 86,
-            "science": 84,
-            "literature": 88
-          }
-        }
+          "id": 9,
+          "name": "Kerem Kaçmaz",
+          "student_number": 109,
+          "gender": "male",
+          "absences": 2,
+          "homework_average": 86
       },
       {
-        "name": "Baki Çağlayan",
-        "student_number": "010",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 10,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 2
-          },
-          "grades": {
-            "math": 89,
-            "science": 92,
-            "literature": 90
-          }
-        }
+          "id": 10,
+          "name": "Baki Çağlayan",
+          "student_number": 110,
+          "gender": "male",
+          "absences": 1,
+          "homework_average": 90
       },
       {
-        "name": "Gökhan Ünlü",
-        "student_number": "011",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 11,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 0
-          },
-          "grades": {
-            "math": 91,
-            "science": 90,
-            "literature": 93
-          }
-        }
+          "id": 11,
+          "name": "Gökhan Ünlü",
+          "student_number": 111,
+          "gender": "male",
+          "absences": 3,
+          "homework_average": 80
       },
       {
-        "name": "Fatih Kaya",
-        "student_number": "012",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 12,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 4
-          },
-          "grades": {
-            "math": 84,
-            "science": 87,
-            "literature": 86
-          }
-        }
+          "id": 12,
+          "name": "Fatih Kaya",
+          "student_number": 112,
+          "gender": "male",
+          "absences": 2,
+          "homework_average": 84
       },
       {
-        "name": "Doğukan Sarı",
-        "student_number": "013",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 13,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 6
-          },
-          "grades": {
-            "math": 77,
-            "science": 80,
-            "literature": 75
-          }
-        }
+          "id": 13,
+          "name": "Doğukan Sarı",
+          "student_number": 113,
+          "gender": "male",
+          "absences": 1,
+          "homework_average": 93
       },
       {
-        "name": "Halil İbrahim",
-        "student_number": "014",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 14,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 2
-          },
-          "grades": {
-            "math": 82,
-            "science": 79,
-            "literature": 80
-          }
-        }
+          "id": 14,
+          "name": "Halil İbrahim",
+          "student_number": 114,
+          "gender": "male",
+          "absences": 0,
+          "homework_average": 88
       },
       {
-        "name": "Tunahan Orak",
-        "student_number": "015",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 15,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 1
-          },
-          "grades": {
-            "math": 93,
-            "science": 94,
-            "literature": 92
-          }
-        }
+          "id": 15,
+          "name": "Tunahan Orak",
+          "student_number": 115,
+          "gender": "male",
+          "absences": 2,
+          "homework_average": 85
       },
       {
-        "name": "Berat Dimen",
-        "student_number": "016",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 16,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 5
-          },
-          "grades": {
-            "math": 88,
-            "science": 89,
-            "literature": 87
-          }
-        }
+          "id": 16,
+          "name": "Berat Dimen",
+          "student_number": 116,
+          "gender": "male",
+          "absences": 3,
+          "homework_average": 82
       },
       {
-        "name": "Berk Uçar",
-        "student_number": "017",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 17,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 7
-          },
-          "grades": {
-            "math": 81,
-            "science": 83,
-            "literature": 85
-          }
-        }
+          "id": 17,
+          "name": "Berk Uçar",
+          "student_number": 117,
+          "gender": "male",
+          "absences": 4,
+          "homework_average": 90
       },
       {
-        "name": "Hasan Türkmen",
-        "student_number": "018",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 18,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 2
-          },
-          "grades": {
-            "math": 90,
-            "science": 89,
-            "literature": 91
-          }
-        }
+          "id": 18,
+          "name": "Hasan Türkmen",
+          "student_number": 118,
+          "gender": "male",
+          "absences": 0,
+          "homework_average": 87
       },
       {
-        "name": "Arda Toraman",
-        "student_number": "019",
-        "class": "10. Dönem FE",
-        "gender": "Male",
-        "id": 19,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 4
-          },
-          "grades": {
-            "math": 86,
-            "science": 87,
-            "literature": 84
-          }
-        }
+          "id": 19,
+          "name": "Arda Toraman",
+          "student_number": 119,
+          "gender": "male",
+          "absences": 2,
+          "homework_average": 83
       },
       {
-        "name": "Ece Ceylan",
-        "student_number": "020",
-        "class": "10. Dönem FE",
-        "gender": "Female",
-        "id": 20,
-        "details": {
-          "attendance": {
-            "total_classes": 100,
-            "absences": 2
-          },
-          "grades": {
-            "math": 91,
-            "science": 89,
-            "literature": 90
-          }
-        }
+          "id": 20,
+          "name": "Ece Ceylan",
+          "student_number": 120,
+          "gender": "female",
+          "absences": 1,
+          "homework_average": 91
       }
-    ]
-  }
-  
+  ]
+}
