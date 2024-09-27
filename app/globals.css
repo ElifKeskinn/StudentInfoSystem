@@ -6,6 +6,23 @@ body {
   color: #333;
 }
 
+/* search */
+.search-input {
+  width: 80%;
+  max-width: 600px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #232930;
+}
+
 /* Home Page Styles */
 .home-container {
   max-width: 800px;
