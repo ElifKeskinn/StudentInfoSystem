@@ -1,0 +1,198 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Home Page Styles */
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #2c3e50;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.profile-picture::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+}
+
+.student-details {
+  flex-grow: 1;
+}
+
+.student-name {
+  font-size: 1.2em;
+  color: #34495e;
+  margin: 0;
+}
+
+.student-number {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  margin: 5px 0 0 0;
+}
+
+
+
+
+.view-profile-button {
+  background-color: #2980b9;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-profile-button:hover {
+  background-color: #1f6391;
+}
+
+/* Student Profile Styles */
+.student-profile {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture .fas {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.student-name {
+  font-size: 2.5em;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.student-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-info li {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+}
+
+.student-info li .label {
+  width: 180px;
+  font-weight: bold;
+  color: #7f8c8d;
+}
+
+.student-info li .value {
+  flex-grow: 1;
+}
+
+
+.gender-icon{
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+.gender-icon.blue{
+  background-color: #2980b9;
+}
+.gender-icon.pink{
+  background-color: #b9297b;
+}
+
+
+/* Status Stil (Cinsiyet için) */
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+.status.red {
+  background-color: #e74c3c;
+}
+
+.status.green {
+  background-color: #27ae60;
+}
+
+/* Error Message */
+.error-message {
+  text-align: center;
+  font-size: 1.8em;
+  color: #e74c3c;
+  margin-top: 100px;
+}
