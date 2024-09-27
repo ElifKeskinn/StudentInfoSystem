@@ -1,6 +1,7 @@
 import { getStudentsData } from './lib/students';
 import Link from 'next/link';
-
+import image from './image.png';
+import Image from 'next/image';
 
 
 
@@ -9,6 +10,10 @@ const Home = async () => {
 
   return (
     <div className="home-container">
+        <Image src={image} 
+        alt="Açıklayıcı Alt Metin" 
+              className="top-left-image"        />
+
       <h1 className="home-title">Student tracking system</h1>
       <ul className="student-list">
         {students.map((student) => (

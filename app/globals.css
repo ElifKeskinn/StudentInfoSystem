@@ -11,6 +11,17 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
+  position: relative;
+}
+
+.top-left-image {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 125px; 
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
 }
 
 .home-title {

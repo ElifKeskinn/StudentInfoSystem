@@ -1,6 +1,8 @@
 import { getStudentsData } from '../../lib/students';
 import { FaUser } from 'react-icons/fa';
 
+
+
 const genderSymbols = {
   male: '♂',
   female: '♀',
