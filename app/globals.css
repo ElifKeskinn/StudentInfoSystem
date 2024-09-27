@@ -44,6 +44,24 @@ body {
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.student-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px; 
+  height: 100%;
+  border-radius: 10px 0 0 10px; 
+}
+
+.student-item.absence-high::before {
+  background-color: red;}
+
+.student-item.absence-low::before {
+  background-color: green; 
 }
 
 .profile-picture {

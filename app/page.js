@@ -4,7 +4,6 @@ import image from './image.png';
 import Image from 'next/image';
 
 
-
 const Home = async () => {
   const students = await getStudentsData();
 
@@ -17,21 +16,23 @@ const Home = async () => {
       <h1 className="home-title">Student tracking system</h1>
       <ul className="student-list">
         {students.map((student) => (
-          <li className="student-item" key={student.student_number}>
-              <div className="profile-picture">
-              {student.name.charAt(0)}
-              {/* Profil resmi gelirse buraya img etiketi açıcam */}
-            </div>
-            <div className="student-details">
-              <p className="student-name">
-                {student.name}
-              </p>
-              <p className="student-number">Öğrenci No: {student.student_number}</p>
-            </div>
-            <Link href={`/student/${student.student_number}`}>
-              <button className="view-profile-button">Detaylar</button>
-            </Link>
-          </li>
+       <li
+       className={`student-item ${student.absences > 5 ? 'absence-high' : 'absence-low'}`}
+       key={student.student_number}
+     >
+       <div className="profile-picture">
+         {student.name.charAt(0)}
+         {/* Profil resmi gelince buraya img etiketi açıcam */}
+       </div>
+       <div className="student-details">
+         <p className="student-name">{student.name}</p>
+         <p className="student-number">Student No: {student.student_number}</p>
+       </div>
+       <Link href={`/student/${student.student_number}`}>
+         <button className="view-profile-button">Details</button>
+       </Link>
+     </li>
+     
         ))}
       </ul>
     </div>
@@ -39,5 +40,3 @@ const Home = async () => {
 };
 
 export default Home;
-
-
