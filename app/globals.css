@@ -90,8 +90,6 @@ body {
 }
 
 
-
-
 .view-profile-button {
   background-color: #2980b9;
   color: #ffffff;
@@ -106,7 +104,7 @@ body {
   background-color: #1f6391;
 }
 
-/* Student Profile Styles */
+/* Student rofile stilleri */
 .student-profile {
   max-width: 800px;
   margin: 60px auto;
@@ -144,27 +142,27 @@ body {
   color: #2c3e50;
 }
 
-.student-info {
-  list-style-type: none;
-  padding: 0;
-}
-
-.student-info li {
-  font-size: 1.4em;
-  margin-bottom: 15px;
-  color: #34495e;
+.info-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
-.student-info li .label {
-  width: 180px;
+.student-info,
+.class-info {
+  width: 48%;
+}
+
+.student-info li,
+.class-info li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.label {
+  width: 150px;
   font-weight: bold;
   color: #7f8c8d;
-}
-
-.student-info li .value {
-  flex-grow: 1;
 }
 
 
