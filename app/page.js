@@ -2,6 +2,7 @@ import { getStudentsData } from './lib/students';
 import Link from 'next/link';
 import image from './image.png';
 import Image from 'next/image';
+import StudentSearch from './components/StudentSearch';
 
 
 const Home = async () => {
@@ -9,32 +10,14 @@ const Home = async () => {
 
   return (
     <div className="home-container">
-        <Image src={image} 
-        alt="Açıklayıcı Alt Metin" 
-              className="top-left-image"        />
+      <Image src={image}
+        alt="Açıklayıcı Alt Metin"
+        className="top-left-image"
 
+      />
       <h1 className="home-title">Student tracking system</h1>
-      <ul className="student-list">
-        {students.map((student) => (
-       <li
-       className={`student-item ${student.absences > 5 ? 'absence-high' : 'absence-low'}`}
-       key={student.student_number}
-     >
-       <div className="profile-picture">
-         {student.name.charAt(0)}
-         {/* Profil resmi gelince buraya img etiketi açıcam */}
-       </div>
-       <div className="student-details">
-         <p className="student-name">{student.name}</p>
-         <p className="student-number">Student No: {student.student_number}</p>
-       </div>
-       <Link href={`/student/${student.student_number}`}>
-         <button className="view-profile-button">Details</button>
-       </Link>
-     </li>
-     
-        ))}
-      </ul>
+      <StudentSearch students={students} />
+
     </div>
   );
 };
